@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://use.fontawesome.com/1477e2e837.js"></script>
+        <title>Tianzheng Mai</title>
+        <script type="text/javascript" src="Js/scripts.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+
+    <body onLoad ="Current_Time()">
+      <!--<iframe width="0" height="0" src="BGM.mp3" frameborder="0" allowfullscreen></iframe>-->
+        <header>
+            <div id="clockDisplay" class="clock"></div>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="Menu">
+              <li><a href="#homepage" onclick="toggleMenu();">Home</a></li>
+              <li><a href="#aboutpage" onclick="toggleMenu();">About Me</a></li>
+              <li><a href="#MyLife" onclick="toggleMenu();">My Life</a></li>
+              <li><a href="#MyProject" onclick="toggleMenu();">My Project</a></li>
+              <li><a href="#contactme" onclick="toggleMenu();">Contact Me</a></li>
+            </ul>
+        </header>
+
+          <section class="intro" id="homepage">
+              <div class="textBox">
+                  <h2><b>Welcome!</b></h2>
+                  <h3>I am Tianzheng Mai</h3>
+                  <h4>I'm a software engineer, programmer,<br>Third-year software engineering student<br>in McMaster University!</h4>
+                  <a href="#aboutpage" class="buttonbox">Get Started!</a>
+              </div>
+          </section>
+
+          <section class="AboutMe" id="aboutpage">
+              <div class="heading">
+                <h2>About me</h2>
+              </div>
+              <div class="aboutbx">
+                <div class="abBx pic1">
+                  <h3>I'm a Software Engineer.</h3>
+                  <p>Hello, my name is Tianzheng Mai. I am a third-year software engineering student in McMaster University. I am originally from mainland China but I currently study in Canada. My passion for programming began 2 years ago when I finished my first-year engineering courses. My goal in the next several years is to become a software engineer who can develop different android applications and websites. Besides, in my free time, I enjoy playing piano, working out in gym, travelling and exploring Ontario by bike.</p>
+                </div>
+                <div class="pic1">
+                  <img src="photo/img1.jpg" class="img">
+                </div>
+              </div>
+          </section>
+
+
+
+
+          <section class="Mylife" id="MyLife">
+            <div class="heading2">
+              <h2>My Life</h2>
+            </div>
+            <div class="lifebx">
+              <div class="lfbx pic2">
+                <ul>
+                  <li>Skill: C, java, python, html&CSS, C++, Autodesk inventor(2020), Microsoft office(word, excel, power point), Linux, ssh, Matlab, SQL</li>
+                  <li>Framework or Tool: Git, Latex, Doxygen, Photoshop, Jframe, Tkinter,  </li>
+                  <li>Relevant Courses: Data Structure and Algorithm, Databases, Software Design and Development, Discrete Mathematic</li>
+                  <li>Language: English, Mandarin, Cantonese</li>
+                  <li>Hobbies: Basketball, Gym training, Cooking, Travelling, Video Gam(League of Legend)</li>
+                  <li>Hometown: Zhuhai, China</li>
+                  <li>Future Goal: Become a software engineer</li>
+                  <li>Favorite Songs: Stitches, Love yourself, Sorry, THE SCOTTS, Highest in the room, </li>
+                </ul>
+              </div>
+              <div class="pic2">
+                <img src="photo/img2.jpg" class="img">
+              </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section class="MyProject" id="MyProject">
+          <div class="ptitle">
+            <h1>My Project</h1>
+            <p> <br>Competition Programming Project, FrontEnd Project and BackEnd Project</p>
+          </div>
+          <div class="pcontent">
+            
+            <div class="pbox">
+              <img src="photo/pmg3.jpg">
+              <h2>MLB Analysis Application</br> written in Java</h2>
+              <p> <br>MLB analyze provides a statistical analysis tool with various sorting, searching and graphing function
+                for more than a hundred thousand historical datas from MLB(Major League Baseball), based all players and teams between 1871 and 2015. <br>Not only can this application show individual performance, it can
+                also rank the baseball players on their batting success for each season they played in.</p>
+                <a href='https://github.com/Martin-Mai/MLB_Analyze.git' target="_blank"><i class="fa fa-github" aria-hidden="true"></i><br></a>
+                <a href="System Requirement Specification.pdf" download target="_blank"><i class="fa fa-download" aria-hidden="true"></i>SRS<br></a>
+                <a href="MLB Analysis App.pdf" download target="_blank"><i class="fa fa-download" aria-hidden="true"></i>Report</a>
+            </div>
+
+            <div class="pbox">
+              <img src="photo/pmg21.jpg">
+              <img src="photo/pmg22.jpg">
+              <h2>Coronavirus Tracking Tool</h2>
+              <p>The 5th place in 2020 McMaster Engineering Competition(Programming) in 8 hours</br> 1. Create a searching&ranking tool to sort the countries by the number of Total Cases and New Cases<br>2. Create a world map and describe the cases by using different colors of circles</p>
+              <a href='https://github.com/Martin-Mai/virus-tracking-application-mcj.git' target="_blank"><i class="fa fa-github" aria-hidden="true"></i><br></a>
+              <a href="MEC.pdf" download target="_blank"><i class="fa fa-download" aria-hidden="true"></i>Presentation</a>
+            </div>
+            
+            <div class="pbox">
+              <img src="photo/pmg1.jpg">
+              <h2>Tianzheng Mai Website</br> written in HTML&CSS&JS</h2>
+              <p> <br>Using Html, Css and JavaScript to develop an interactive and personal website to know more information about my project, my life and contact information<br> </p>
+              <a href='index.html' target="_blank"><i class="fa fa-share" aria-hidden="true"></i>www.tianzhengmai.com<br></a>
+              <a href='https://github.com/Martin-Mai' target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            </div>
+
+            
+          </div>
+        </section>
+
+
+
+
+
+
+        <div class="ContactMe" id="contactme">
+          <ul>
+              <!--Linkedin Icon-->
+              <li><a href='https://www.linkedin.com/in/tianzheng-mai-231714170/?originalSubdomain=ca' target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+              <!--Instagram Icon-->
+              <li><a href='https://www.instagram.com/mtz_martin123/' target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+              <!--Email Icon-->
+              <li><a href="javascript:myEmail();"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+              <!--Facebook Icon-->
+              <li><a href='https://www.facebook.com/profile.php?id=100011334810637' target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+              <li><a href='https://github.com/Martin-Mai' target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+      
+          </ul>
+          <h3>Phone Number: (416)-876-5200</h5>
+          <h3>My Email: mait6@mcmaster.ca</h5>
+        </div>
+        
+        <div class="footer">
+          <h5> © Copyright 2020 - Website Designed by Tianzheng Mai</h5>
+          <audio src="BGM.mp3" autoplay="autoplay" loop="" preload="auto" type="audio/mp3"></audio>
+        </div>
+        <div class="footer2">
+          <a href="mima/index.html" class="heart">n 55!w ! 6uo⊥ 6uo⊥</a>
+        </div>
+        
+        <script type="text/javascript">
+          window.addEventListener("scroll", function() {
+          var header = document.querySelector("header");
+          header.classList.toggle("sticky", window.scrollY > 0);
+          });
+
+          function toggleMenu(){
+          var menuToggle = document.querySelector('.toggle');
+          var menu = document.querySelector('.Menu');
+          menuToggle.classList.toggle('active');
+          menu.classList.toggle('active');
+          }
+        </script>
+    </body>  
+</html>

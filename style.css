@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+header
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  transition: 0.5s;
+}
+
+header ul
+{
+  position: relative;
+  display: flex;
+}
+header ul li
+{
+  position: relative;
+  list-style: none;
+}
+header ul li a
+{
+  position: relative;
+  display: inline-block;
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+
+header.sticky
+{
+  background: lightskyblue;
+  padding: 20px 100px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+header.sticky ul li a
+{
+  color:black;
+}
+
+
+
+
+.clock{
+  color:white;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+
+section
+{
+  padding: 101px;
+}
+.intro
+{
+    position: relative;
+    min-height: 101vh;
+    background:black;
+    background: url(photo/MainPage.jpg);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro h2
+{
+  font-size: 3em;
+  color: white;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+.intro h2 span
+{
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.intro h3
+{
+  color: white;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.intro h4
+{
+  color: white;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.buttonbox
+{
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 18px;
+  position: relative;
+  background: black;
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+
+
+.AboutMe
+{
+  background:black;
+}
+.aboutbx
+{
+  display: flex;
+  justify-content: space-between;
+}
+.heading
+{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+.heading.white
+{
+  color: white;
+}
+.abBx
+{
+  color: white;
+  padding-right: 30px;
+}
+.abBx h3
+{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.abBx p
+{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.heading h2
+{
+  font-weight: 600;
+  font-size: 30px;
+}
+.pic1
+{
+  min-width: 50%;
+}
+img
+{
+  max-width: 100%;
+}
+
+
+
+
+
+.Mylife
+{
+  background: white;
+}
+.lifebx
+{
+  display: flex;
+  justify-content: space-between;
+}
+.heading2
+{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color:black;
+}
+.heading2.white
+{
+  color:black;
+}
+.lfbx
+{
+  color:#111;
+  padding-right: 30px;
+}
+.heading2 h2
+{
+  font-weight: 600;
+  font-size: 30px;
+}
+.pic2
+{
+  min-width: 50%;
+}
+img
+{
+  max-width: 100%;
+}
+.lfbx ul li
+{
+    font-size: 1em;
+    color:black;
+    font-weight: 3000;
+    margin: 30px 0;
+}
+
+
+.MyProject
+{
+  background:black;
+  padding-bottom: 0;
+}
+
+.MyProject .ptitle 
+{
+  color: white;
+  text-align: center;
+}
+.MyProject .pcontent
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.MyProject .pcontent .pbox
+{
+  padding: 40px 20px;
+  background: pink;
+  color: white;
+  max-width: 340px;
+  margin: 20px;
+  text-align: center;
+  transition: 0.5s;
+}
+.MyProject .pcontent .pbox:hover
+{
+  background-color: lightgreen;
+}
+.MyProject .pcontent .pbox img
+{
+  max-width: 200px;
+  
+}
+.MyProject .pcontent .pbox h2
+{
+  font-size: 20px;
+  font-weight: 600;
+}
+.MyProject .pcontent .pbox a
+{
+  color: white;
+  font-size: 20px;
+}
+
+
+.MyProject .pcontent .pbox a:hover {
+  color: lightskyblue;
+}
+
+
+
+
+
+.footer
+{
+    /*position: relative;*/
+    text-align: center;
+    /*width: 100%;*/
+    background-color:black;
+    /*display: flex;*/
+    padding: 30px;
+}
+.footer h5
+{
+    color: white;
+}
+
+.ContactMe
+{
+    position: relative;
+    padding: 0;
+    background-color: black;
+    text-align: center;
+}
+
+.ContactMe li{
+    margin: 15px;
+    list-style: none;
+    display: inline-block;
+}
+
+.ContactMe li a{
+    color:white;
+    font-size: 40px;
+    
+}
+
+.ContactMe li a:hover {
+    color: pink;
+}
+.ContactMe h3{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.footer2
+{
+    /*position: relative;*/
+    text-align: center;
+    /*width: 100%;*/
+    background-color:black;
+    /*display: flex;*/
+    padding: 30px;
+}
+.footer2 a 
+{
+    color: white;
+    background: skyblue;
+    position: relative;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+@media (max-width: 991px)
+{
+  header,
+  header.sticky
+  {
+    padding: 20px 50px;
+    z-index: 1000;
+  }
+  header .Menu
+  {
+    display: none;;
+    z-index: 999;
+  }
+  header .Menu
+  {
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    padding: 100px 50px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    transition: 0.5s;
+    border-top: 1px solid rgba(0,0,0,0.2);
+  }
+  header .Menu.active
+  {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    padding: 100px 50px;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background: lightskyblue;
+  }
+  header ul li a
+  {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #111;
+  }
+  .toggle
+  {
+    width: 40px;
+    height: 40px;
+    background: url(menu.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+  }
+  .toggle.active
+  {
+    background: url(close.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+  }
+  header.sticky .toggle
+  {
+    filter: invert(1);
+  } 
+
+
+
+
+
+  
+  section
+  {
+    padding: 100px 50px;
+  }
+
+
+
+
+
+
+  .intro
+  {
+    padding: 300px 40px 100px;
+    position: relative;
+    min-height: 100vh;
+    background:black;
+    background: url(photo/cmain.jpg);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .intro h2
+  {
+    font-size: 2.5em;
+  }
+  .intro h3
+  {
+    font-size: 1.7em;
+  }
+  .intro h4
+  {
+    font-size: 1em;
+  }
+  .buttonbox
+  {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .aboutbx
+  {
+    flex-direction: column;
+  }
+  .heading h2
+  {
+    font-size: 24px;
+  }
+  .abBx h3
+  {
+    font-size: 20px;
+  }
+  .pic1
+  {
+    margin-bottom: 20px;
+  }
+  .pic1:last-child
+  {
+    margin-bottom: 0px;
+  }
+
+
+  
+  .lifebx
+  {
+    flex-direction: column;
+  }
+  .heading h2
+  {
+    font-size: 24px;
+  }
+  .lfbx h3
+  {
+    font-size: 20px;
+  }
+  .pic2
+  {
+    margin-bottom: 20px;
+  }
+  .pic2:last-child
+  {
+    margin-bottom: 0px;
+  }
+}
